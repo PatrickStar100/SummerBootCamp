@@ -21,7 +21,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color:var(--Cards);
   font-weight: 300;
   padding: 15px;
   justify-content: center;
@@ -90,7 +90,7 @@ button {
 }
 
 footer {
-  background-color: gray;
+  background-color: var(--Cards);
   color: white;
 
   display: grid;
@@ -182,7 +182,7 @@ footer div {
 :root {
   --Title: #8D6A9F;
   --Words: #30C5FF;
-  --Background: #ffebc2;
+  --Background: #053C5E;
   --Cards: #FCB9B2;
   --Background2:#ED6A5A;
 }
