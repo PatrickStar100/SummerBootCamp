@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Handjet:wght@500&display=swap');
 
+.footerIcon {
+  width: 50px;
+}
+
+.smallFooterIcon {
+  width: 40px;
+  margin-bottom: 5px;
+}
+
 * {
   font-family: sans-serif;
   margin: 0;
@@ -21,7 +30,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color:var(--Cards);
+  background-color: var(--Cards);
   font-weight: 300;
   padding: 15px;
   justify-content: center;
@@ -66,7 +75,7 @@ header li :hover {
 
 .card {
   width: 28%;
-  background-color:var(--Cards);
+  background-color: var(--Cards);
   color: #1e2d2fe8;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -106,6 +115,7 @@ footer a {
 footer div {
   margin: 20px;
 }
+
 
 @media screen and (max-width: 800px) {
   footer {
@@ -184,5 +194,9 @@ footer div {
   --Words: #30C5FF;
   --Background: #053C5E;
   --Cards: #FCB9B2;
-  --Background2:#ED6A5A;
+  --Background2: #ED6A5A;
+}
+
+.video {
+  Width: 100%;
 }
